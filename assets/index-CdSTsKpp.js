@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/RollUpdater-BODOs-Z_.js","assets/index-l2lVw0KY.js","assets/index-BhzQ9JEJ.css","assets/OptionsColor-BwCDSon1.js"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as o}from"./index-l2lVw0KY.js";async function l(t,a=!0){await t.addParticleUpdater("roll",async()=>{const{RollUpdater:r}=await o(()=>import("./RollUpdater-BODOs-Z_.js"),__vite__mapDeps([0,1,2,3]));return new r},a)}export{l as loadRollUpdater};
