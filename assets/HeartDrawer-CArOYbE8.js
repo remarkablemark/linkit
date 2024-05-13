@@ -1,1 +1,0 @@
-function c(i){const{context:e,radius:u}=i,d=u*2,o=u*.5,t=u+o,a=-u,r=-u;e.moveTo(a,r+o),e.quadraticCurveTo(a,r,a+o,r),e.quadraticCurveTo(a+u,r,a+u,r+o),e.quadraticCurveTo(a+u,r,a+t,r),e.quadraticCurveTo(a+d,r,a+d,r+o),e.quadraticCurveTo(a+d,r+u,a+t,r+t),e.lineTo(a+u,r+d),e.lineTo(a+o,r+t),e.quadraticCurveTo(a,r+u,a,r+o)}class l{draw(e){c(e)}}export{l as HeartDrawer};
